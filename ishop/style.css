@@ -1,0 +1,126 @@
+#header{
+    text-align: right;
+    text-decoration: none;
+    background-image: url(img/back.jpg);
+    height: 75px;
+    margin: 5px;
+    border-radius: 15px;
+}
+#header a {
+    font-size: 16px;
+    font-family: serif; 
+    color: black;
+}
+#header img {
+    height: 70px;
+    float:left;
+}
+#header ul {
+    padding-right: 20px;
+}
+#footer{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-image: url(img/footer.jpg);
+    height: 100px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif; 
+    color: black;
+    font-weight: bold;
+}
+#footer a {
+    text-decoration: underline;
+}
+#footer a:visited {
+    color: black;
+}
+body {
+    background: #f8f8f8
+}
+a{
+    text-decoration: none;
+}
+ a:visited {
+    color: #208080; /* Цвет посещённой ссылки */
+   } 
+a:hover {
+    color: orangered; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline;
+   }
+.prev {
+    height: 450px;
+    float: right;
+    border:  solid 1px;
+    border-color: cadetblue;
+}
+ul img {
+    width: 250px;
+}
+ul{
+    list-style-type: none;
+}
+input, textarea, select {
+    margin: 10px;
+}
+input[type="text"], select {
+    height: 25px;
+    width: 300px;
+    color: darkslategray;
+    font-size: 16px;
+}
+input[type="submit"], input[type="reset"] {
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+}
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkslategrey;
+}
+textarea {
+    width: 550px;
+    height: 100px;
+    font-size: 14px;
+    color: dimgray;
+}
+p {
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+}
+iframe {
+    width: 450px;
+    height: 350px;
+    border: 1px;
+}
+h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+#shot_desc {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+#full_desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.decorated_list {
+    color: darkcyan;
+    font-size: 15px;
+    line-height: 14px;
+    list-style-type: disc;
+    list-style-image: url(img/point1.png);
+}
+
