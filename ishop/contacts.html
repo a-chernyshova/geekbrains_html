@@ -33,16 +33,16 @@
     <form>
         <fieldset>
         <legend>Форма обратной связи</legend>
-        <input type = text placeholder = "Введите имя" autofocus><br>
-        <input type = email placeholder = "e-mail"><br>
-        <select name = "topic" >
+        <input type = text placeholder = "Введите имя" autofocus required><br>
+        <input type = email placeholder = "e-mail" required><br>
+        <select name = "topic">
         <option value = "">Выбери тему</option>
-        <option value = "problem">Проблема при покупке</option>
+        <option value = "problem" >Проблема при покупке</option>
         <option value = "question">Вопрос о товаре</option>
         <option value = "other">Другое</option>
         </select><br>
-        <input type = text placeholder = "Введите тему обращения"><br>
-        <textarea placeholder="Введите текст сообщения"></textarea>
+        <input type = text placeholder = "Введите тему обращения" required><br>
+        <textarea placeholder="Введите текст сообщения" required></textarea>
         <input type="submit" value = "Отправить">
         <input type="reset" value = "Очистить форму">
     </fieldset>
