@@ -1,3 +1,23 @@
+﻿header{
+    text-align: right;
+    text-decoration: none;
+    background-image: url(img/back.jpg);
+    height: 75px;
+    margin: 5px;
+    border-radius: 15px;
+}
+header a {
+    font-size: 16px;
+    font-family: serif; 
+    color: black;
+}
+header img {
+    height: 70px;
+    float:left;
+}
+header ul {
+    padding-right: 20px;
+}
 #header{
     text-align: right;
     text-decoration: none;
@@ -36,6 +56,24 @@
 #footer a:visited {
     color: black;
 }
+footer{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-image: url(img/footer.jpg);
+    height: 100px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: Verdana, sans-serif; 
+    color: black;
+    font-weight: bold;
+}
+footer a {
+    text-decoration: underline;
+}
+footer a:visited {
+    color: black;
+}
 body {
     background: #f8f8f8
 }
@@ -64,7 +102,7 @@ ul{
 input, textarea, select {
     margin: 10px;
 }
-input[type="text"], select {
+input[type="text"], input[type="email"], select {
     height: 25px;
     width: 300px;
     color: darkslategray;
