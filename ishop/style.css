@@ -1,33 +1,3 @@
-header{
-    text-align: right;
-    text-decoration: none;
-    background-image: url(img/back.jpg);
-    height: 75px;
-    margin: 5px;
-    border-radius: 15px;
-}
-header a {
-    font-size: 16px;
-    font-family: serif; 
-    color: black;
-}
-header a:hover{
-    color:darkblue;
-}
-header:hover a{
-    color: darkslategrey;
-}
-header img {
-    height: 70px;
-    float:left;
-}
-header li {
-    padding-right: 20px;
-    color: grey;
-}
-header li a{
-    color: black;
-}
 .header{
     text-align: right;
     text-decoration: none;
@@ -35,6 +5,7 @@ header li a{
     height: 75px;
     margin: 5px;
     border-radius: 15px;
+    //display: flex;
 }
 .header:hover a{
     color: darkslategrey;
@@ -43,6 +14,7 @@ header li a{
     font-size: 16px;
     font-family: serif; 
     color: black;
+    font-size: 26px;
 }
 .header a:hover{
     color:darkblue;
@@ -50,16 +22,24 @@ header li a{
 .header img {
     height: 70px;
     float:left;
+    display:block;
+    padding-left: 35px;
 }
 .header li {
-    padding-right: 20px;
+    padding: 20px;
     color: grey;
+    //display: inline-block;
+    float:left;
+}
+.header ul {
+    display: inline-block;
+    font-size: 26px;
 }
 .header li a{
     color: black;
 }
 .footer{
-    text-align: center;
+    text-align: right;
     text-decoration: none;
     color: black;
     background-image: url(img/footer.jpg);
@@ -76,23 +56,9 @@ header li a{
 .footer a:visited {
     color: black;
 }
-footer{
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    background-image: url(img/footer.jpg);
-    height: 100px;
-    border-radius: 15px;
-    font-size: 15px;
-    font-family: Verdana, sans-serif; 
-    color: black;
-    font-weight: bold;
-}
-footer a {
-    text-decoration: underline;
-}
-footer a:visited {
-    color: black;
+.footer p{
+    display: flex;
+    flex-direction: row-reverse;
 }
 body {
     background: #f8f8f8
@@ -154,7 +120,7 @@ p {
     text-align: justify;
     margin: 5px;
     padding: 5px;
-    width: 70%;
+    width: 97%;
 }
 iframe {
     width: 450px;
@@ -165,8 +131,12 @@ h2 {
     color: black;
     font-size: 18px;
     font-weight: 400;
-    background-color: #eaeaea;
+    background-color: #B8D9B8;
 	box-shadow: 1px 2px 2px #000;
+    padding-left: 15px;
+}
+h1{
+    text-align: center;
 }
 #shot_desc {
     color: #707070;
@@ -205,4 +175,13 @@ td, th{
 .about p:first-letter {
     color: darkblue;
     font-size: 25px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #D6EDBD;
+    padding: 15px;
+}
+.container h2 {
+    display: block;
 }
