@@ -4,50 +4,11 @@
   margin: 0;
   padding: 0;
 }
-.header{
-    text-align: right;
-    text-decoration: none;
-    background-image: url(img/back.jpg);
-    height: 75px;
-    margin: 5px;
-    border-radius: 15px;
-    //display: flex;
-}
-.header:hover a{
-    color: darkslategrey;
-}
-.header a {
-    font-size: 16px;
-    font-family: serif; 
-    color: black;
-    font-size: 26px;
-}
-.header a:hover{
-    color:darkblue;
-}
-.header img {
-    height: 70px;
-    float:left;
-    display:block;
-    padding-left: 35px;
-}
-.header li {
-    font-family: 'Raleway', sans-serif;
-    padding: 20px;
-    color: grey;
-    list-style-type: none;
-    float: left;
-    text-align: center;
-    margin: 2px;
-    line-height: 37px;
-}
-.header ul {
-    display: inline-block;
-    font-size: 26px;
-}
-.header li a{
-    font-family: 'Raleway', sans-serif;
-    color: black;
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    //padding: 15px;
 }
 .blocks li{
     color:  #ffffff;
@@ -64,86 +25,7 @@
     width: 16%;
     border: 1px solid white;
 }
-.foot2{
-    text-decoration: none;
-    //background-image: url(img/footer.jpg);
-    //height: 100px;
-    //border-radius: 15px;
-    background-color:  #333333;
-    width: 100%;
-    height: 47px;
-    font-family: 'Roboto', sans-serif;
-    color:  #dad9d9;
-    font-size: 12px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 400;
-    line-height: 21.6px;/* Приближение из-за подстановки шрифтов */
-}
-.footer a {
-    text-decoration: underline;
-}
-.footer a:visited {
-    color: black;
-}
-.foot2{
-    //display: flex;
-    float: right;
-    margin-right: 25px;
-    text-align: left;
-    //flex-direction: row-reverse;
-}
-.foot2 p{
-    padding-left: 20px;
-}
-.foot1{
-    background-color:  #373737;
-    width: 100%;
-    height: 348px;
-}
-.menu li{
-    font-family: Roboto;
-    color:  #ffffff;
-    font-size: 12px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 400;
-    line-height: 18px;/* Приближение из-за подстановки шрифтов */
-    text-align: left;
-}
-.menu ul{
-    float:left;
-    list-style-type: none;
-    border:1px solid white;
-}
-.news input[type="email"]{
-    background-color:  #fff51f;
-    width: 180px;
-    height: 30px;
-    font-family: Roboto;
-    color:  #333333;
-    font-size: 12px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 700;
-    line-height: 21px;/* Приближение из-за подстановки шрифтов */
-    text-align: left;
-}
-.news input[type='submit']{
-    background-color:  #000000;
-    width: 71px;
-    height: 30px;
-    font-family: Roboto;
-    color:  #ffffff;
-    font-size: 12px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 400;
-    line-height: 21px;/* Приближение из-за подстановки шрифтов */
-    text-align: left;
-}
-.about {
-    font-family: Roboto;
-    color:  #ffffff;
-    font-size: 12px;/* Приближение из-за подстановки шрифтов */
-    font-weight: 400;
-    line-height: 12px;/* Приближение из-за подстановки шрифтов */
-    text-align: left;
-    width: 233px;
-    height: 160px;
-}
+
 body {
     background: #f8f8f8
 }
@@ -205,12 +87,7 @@ input[type="email"]:focus {
     color: blueviolet;
     background-color: beige;
 }
-p {
-    text-align: justify;
-    margin: 5px;
-    padding: 5px;
-    width: 97%;
-}
+
 iframe {
     width: 100%;
     height: 374px;
@@ -267,12 +144,7 @@ td, th{
     color: darkblue;
     font-size: 25px;
 }
-.container {
-    width: 90%;
-    margin: 0 auto;
-    background-color: #D6EDBD;
-    padding: 15px;
-}
+
 .container h2 {
     display: block;
 }
@@ -295,15 +167,7 @@ td, th{
 .size {
     width: 25%;
 }
-.grid{
-    float:left;
-    width: 30%;
-    height: 210px;
-    border: 1px solid grey;
-    margin-bottom: 15px;
-    margin-right: 15px;
-}
-h3 {
+.container h3 {
     color: black;
     font-size: 16px;
     font-weight: 300;
@@ -312,35 +176,6 @@ h3 {
     padding-left: 15px;
     overflow: hidden;
     clear: both;
-}
-.brands, .soc, .insta {
-    border: 1px solid grey;
-    width:auto;
-    height: 250px;
-}
-.insta li{
-
-    float:left;
-    width: 15%;
-    //height: 210px;
-    //margin-bottom: 15px;
-    //margin-right: 15px;
-    margin-left: 10px;
-}
-.insta img{
-    height: 170px;
-    width: 170px;
-    border: 2px solid white;
-    margin: 15px;
-    margin-left: 10px;
-}
-.insta img:hover {
-    opacity: 0.5;
-    cursor: pointer;
-}
-.insta p{
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
 }
 i{
     color: white;
