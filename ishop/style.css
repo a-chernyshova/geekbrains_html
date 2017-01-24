@@ -5,10 +5,10 @@
   padding: 0;
 }
 .container {
-    width: 1500px;
+    width: 1170px;
     margin: 0 auto;
-    background-color: #f8f8f8;
-    //padding: 15px;
+    background-color: #eaeaea;
+    padding: 15px;
 }
 .blocks li{
     color:  #ffffff;
@@ -144,7 +144,9 @@ td, th{
     color: darkblue;
     font-size: 25px;
 }
-
+.conainer a{
+    color: darkblue;
+}
 .container h2 {
     display: block;
 }
