@@ -35,8 +35,7 @@ a{
 a:visited {
     color: #208080; /* Цвет посещённой ссылки */
 } 
-a:hover {
-    color: orangered; /* Цвет ссылки при наведении на нее курсора мыши */  
+a:hover { 
     text-decoration: underline;
    }
 .prev {
