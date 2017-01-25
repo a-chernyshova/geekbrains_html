@@ -19,6 +19,9 @@
     padding-left: 35px;
     position: absolute;
 }
+.ad > a > input[type="submit"]:hover {
+    cursor: pointer;
+}
 .social_menu {
     width: 150px;
     height: 16px;
